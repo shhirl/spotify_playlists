@@ -1,12 +1,4 @@
-"""
-Instructions on google apis here https://github.com/googleapis/google-api-python-client
-- make new prohject on google developer account and enable youtube Data API
-- install google API client
 
-for google_auth_oauthlib.flow:
-https://google-auth-oauthlib.readthedocs.io/en/latest/reference/google_auth_oauthlib.flow.html
-
-"""
 import os
 import google_auth_oauthlib.flow #google authentication library
 import googleapiclient.discovery
@@ -41,16 +33,21 @@ def get_youtube_client():
 
 
 
-def take_playlist_videos():
+def take_playlist_videos(youtube_playlist_name):
     youtube_client = get_youtube_client()
     request = youtube_client.playlists().list(
             part="snippet, id",
-            mine= 'true'
+            mine= 'true',
+            maxResults = 50
         )
     response = request.execute()
-    #get playlist Id for the playlist called "work-chill-music
-    print(f"youtube playlist name we are grabbing from: {response['items'][0]['snippet']['localized']['title']}") #playlist name
-    playlist_id = response['items'][0]['id']
+    print(f"Total number of playlists on youtube account: {len(response['items'])} (Note: The max that youtube API allows us to see is 50)")
+
+    for playlist in response['items']:
+        if playlist['snippet']['title'] == youtube_playlist_name:
+            print(f"Name of youtube playlist that we will create in spotify: {youtube_playlist_name}")
+            playlist_id = playlist['id']
+        #print(playlist['snippet']['title'])
 
     #get details from the specific playlist using playlist Id
     request = youtube_client.playlistItems().list(
