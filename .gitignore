@@ -1,0 +1,13 @@
+#environments
+.venv
+
+#spotify and youtube API credentials
+*.json
+
+#editor
+.idea/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
