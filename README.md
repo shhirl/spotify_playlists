@@ -4,7 +4,8 @@
 * The scripts use the Youtube and Python API to create a new spotify playlist on my account with the songs from the youtube playlist
 
 
-## Tools used:
+## Info:
+* Get Spotify token here: https://developer.spotify.com/console/post-playlists/  
 * Youtube API Overview: https://developers.google.com/youtube/v3/getting-started
 * Instructions on google apis here: https://github.com/googleapis/google-api-python-client.  
   Notes:
