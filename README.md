@@ -1,5 +1,5 @@
 # Automatically Generate Spotify Playlist from Youtube Playlist
-This Python program automates the creation of a personal Spotify playlist directly from a personal Youtube playlist.   
+This Python program automates the creation of a personal Spotify playlist directly from a personal Youtube playlist.  
 
 ## Requirements
 - Pyenv installed to create a virtual environment
@@ -25,6 +25,14 @@ To automate your own Spotify playlist creation, please follow the following inst
 10. Google will ask your permission to access their API. Click through and 
 11. When the code runs, you will see your new playlist appear in Spotify!
 
+
+## Example
+The Youtube playlist that I have created looks like this:   
+<img src="https://github.com/shhirl/spotify_playlists/blob/main/images/youtube_playlist.jpg" width="500">
+
+
+After running this Python script, I will see a new Spotify playlist that looks like this   
+<img src="https://github.com/shhirl/spotify_playlists/blob/main/images/final_result.jpg" width="500">
 
 ## Info on Youtube and Spotify Credentials
 * Youtube API Overview: https://developers.google.com/youtube/v3/getting-started
