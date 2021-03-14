@@ -30,7 +30,8 @@ To automate your own Spotify playlist creation, please follow the following inst
 ## Info on Youtube and Spotify Credentials
 * Youtube API Overview: https://developers.google.com/youtube/v3/getting-started
 * Instructions on google apis here: https://github.com/googleapis/google-api-python-client.  
-* For google_auth_oauthlib.flow: https://google-auth-oauthlib.readthedocs.io/en/latest/reference/google_auth_oauthlib.flow.html
+* For google_auth_oauthlib.flow: https://google-auth-oauthlib.readthedocs.io/en/latest/reference/google_auth_oauthlib.flow.html.  
+* https://developer.spotify.com/documentation/general/guides/authorization-guide/
 
 
 # Example
