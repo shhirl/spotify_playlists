@@ -15,11 +15,15 @@ To automate your own Spotify playlist creation, please follow the following inst
 3. Get your Youtube credentials 
 4. Create a file named `client_secret.json` and put your Youtube credentials inside
 5. Get your spotify OAuth Token here: https://developer.spotify.com/console/post-playlists/  
-6. Create a file named `spotify_secret.json` and put your Spotify credentials inside
-7. Edit the file `main.py` to include the name of your Youtube playlist, and the name of the Spotify playlist that will be created
-8. Run the program with the command `python main.py`
-9. Google will ask your permission to access their API. Click through and 
-10. When the code runs, you will see your new playlist appear in Spotify!
+  - Log into Spotify Developer portal
+  - Go to the 'Post Playlist' Page
+  - Fill in your Spotify user ID and click "Get Token"
+  - ![](images/spotify_token.jpg)
+7. Create a file named `spotify_secret.json` and put your Spotify credentials inside
+8. Edit the file `main.py` to include the name of your Youtube playlist, and the name of the Spotify playlist that will be created
+9. Run the program with the command `python main.py`
+10. Google will ask your permission to access their API. Click through and 
+11. When the code runs, you will see your new playlist appear in Spotify!
 
 
 ## Info on Youtube and Spotify Credentials
