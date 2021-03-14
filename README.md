@@ -36,8 +36,8 @@ To automate your own Spotify playlist creation, please follow the following inst
 
 # Example
 The Youtube playlist that I have created looks like this:   
-<img src="https://github.com/shhirl/spotify_playlists/blob/main/images/youtube_playlist.jpg" width="500">
+<img src="https://github.com/shhirl/spotify_playlists/blob/main/images/youtube_playlist.jpg" width="700">
 
 
 After running this Python script, I will see a new Spotify playlist that looks like this   
-<img src="https://github.com/shhirl/spotify_playlists/blob/main/images/final_result.jpg" width="500">
+<img src="https://github.com/shhirl/spotify_playlists/blob/main/images/final_result.jpg" width="700">
