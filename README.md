@@ -14,8 +14,12 @@ To automate your own Spotify playlist creation, please follow the following inst
 1. Clone this repo
 2. Install dependencies with the command `pip install -r requirements.txt`
 3. Get your Youtube credentials 
-4. Create a file named `client_secret.json` and put your Youtube credentials inside
-5. Get your spotify OAuth Token here: https://developer.spotify.com/console/post-playlists/  
+    - Create a new project on your Google Developer Console
+    - Enable the Youtube Data API
+    - Open the Credentials page in the API Console
+    - Generate OAuth 2.0 credentials
+5. Create a file named `client_secret.json` and put your Youtube credentials inside
+6. Get your spotify OAuth Token here: https://developer.spotify.com/console/post-playlists/  
     - Log into Spotify Developer portal
     - Go to the 'Post Playlist' Page
     - Fill in your Spotify user ID and click "Get Token"
@@ -40,4 +44,4 @@ The Youtube playlist that I have created looks like this:
 
 
 After running this Python script, I will see a new Spotify playlist that looks like this   
-<img src="https://github.com/shhirl/spotify_playlists/blob/main/images/final_result.jpg" width="700">
+<img src="https://github.com/shhirl/spotify_playlists/blob/main/images/final_result.jpg" width="900">
