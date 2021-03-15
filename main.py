@@ -25,7 +25,7 @@ def make_spotify_playlist(youtube_playlist_name, new_playlist_name):
     connect_to_spotify.add_song_to_playlist(playlist_id, uris)
 
 if __name__ == "__main__":
-    make_spotify_playlist(youtube_playlist_name = "for spotify", new_playlist_name = "Youtube Playlist to Spotify")
+    make_spotify_playlist(youtube_playlist_name = "for spotify", new_playlist_name = "new playlist!")
 
 
 
