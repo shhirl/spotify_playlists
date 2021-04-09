@@ -40,12 +40,14 @@ To automate your own Spotify playlist creation, please follow the following inst
    - Log into Spotify Developer portal
    - Go to the 'Post Playlist' Page
    - Fill in your Spotify user ID and click "Get Token"
+
      <img src="https://github.com/shhirl/spotify_playlists/blob/main/images/spotify_token.jpg" width="500">
 
 6. Create a file named `spotify_secret.json` and put your Spotify credentials inside
 
    - The json should follow the same format as in the image below. The two credentials that you need to fill in are "user_id" and "spotify_token"
-   - <img src="https://github.com/shhirl/spotify_playlists/blob/main/images/spotify_secret_json_example.jpg" width="500">
+
+   <img src="https://github.com/shhirl/spotify_playlists/blob/main/images/spotify_secret_json_example.jpg" width="500">
 
 7. Edit the file `main.py` to include the name of your Youtube playlist, and the name of the Spotify playlist that will be created
 
